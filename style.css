@@ -1,0 +1,9 @@
+
+/* adding borders */
+.inc-exp-container {
+    border: 1px solid;
+    padding: 20px;
+    box-shadow: 5px 5px 18px #a3b1aa;
+    display: flex;
+    justify-content: space-between;
+}
