@@ -1,0 +1,7 @@
+
+/* adding borders */
+.main-container{
+    background-color: 5px 5px 18px #a3b1aa;
+    display: flex;
+    justify-content: center;
+}
