@@ -5,14 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
+    <link href="https://assets.targetimg1.com/static/images/favicon.ico" id="favicon" rel="icon" type="image/png">
     <title>Expense Tracker</title>
 </head>
 <body>
     <div class="main-container">
-        <div class="current-balance"></div>
-        <div class="income-expense"></div>
-        <div class="history"></div>
-        <div class="new-transaction"></div>
+        <div class="title">
+            <h2>Expense Tracker</h2>
+        </div>
+
+        <div class="balance">
+            <div class="label">
+                <h4>YOUR BALANCE</h4>
+            </div>
+            <div class="total">
+                <h2>$0.00</h2>
+            </div>
+        </div>
+    
+        <div class="income-expense">
+            <div class="income">
+                <h5>INCOME</h5>
+                 <h2>+$0.00</h2>  
+            </div>
+            <div class="expense">
+                <h5>EXPENSE</h5>
+                    <h2>-$0.00</h2>
+            </div>
+        </div>
+
+        <div class="history">
+            <h4>History</h4>
+        </div>
+        <div class="new-transaction">
+
+            <div class="label2">
+                <h4>Add new transaction</h4>
+            </div>
+
+            <div class="text-box">
+                <label for="Text">Text</label>
+                <input type="text" id="Text" name="text-box"
+                placeholder="Enter text...">
+
+            </div>
+
+            <div class="amount">
+                <h5>Amount</h5>
+                <h6>(negative-expense,posotive-income)</h6>
+                <input type="text" id="amount" name="amount-box"
+                placeholder="Enter amount...">
+            </div>
+            <div id="addTransaction-btn">
+                <button type="button" class="addTransaction-btn">Add transaction</button>
+            </div>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
