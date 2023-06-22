@@ -36,7 +36,14 @@
                 width: 100%;
                 height: 15%;
                 display: flex;
-                border: solid #fff;
+                border: solid #e5dfdf;
+                /* border-left: 6px solid green;
+                height: 5px; */
+            }
+
+            .line{
+                border-left: 3px solid #e5dfdf;
+                height: 90px;
             }
             
             .history{
