@@ -74,7 +74,7 @@
             /* income/expense */
             
             .income{
-                background-color:rgb(57, 160, 46);
+                background-color:#fff;
                 width: 50%;
                 height: 100%; 
                 display: flex;
@@ -83,7 +83,7 @@
             }
             
             .expense{
-                background-color:rgb(4, 113, 20);
+                background-color:#fff;
                 width: 50%;
                 height: 100%; 
                 display: flex;
