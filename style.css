@@ -52,6 +52,10 @@
                 height: 10%; 
             }
             
+            hr{
+                border: 1px solid grey;   
+            }
+
             .new-transaction{
                 background-color:rgb(30, 96, 167);
                 width: 100%;
