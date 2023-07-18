@@ -74,6 +74,7 @@
                 background-color:rgb(220, 232, 232);
                 width: 30%;
                 height: 50%; 
+                margin: 0;
             }
             
             /* income/expense */
@@ -85,6 +86,7 @@
                 display: flex;
                 justify-content: center;
                 flex-direction: column;
+                margin: 0;
             }
             
             .expense{
@@ -94,6 +96,10 @@
                 display: flex;
                 justify-content: center;
                 flex-direction: column;
+            }
+
+            .in-exp-totals{
+                margin: 0;
             }
 
             .numbers{
