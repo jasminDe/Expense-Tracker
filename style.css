@@ -48,7 +48,7 @@
             }
             
             .history{
-                background-color:rgb(64, 154, 249);
+                background-color:rgb(220, 232, 232);
                 width: 100%;
                 height: 10%; 
             }
@@ -58,7 +58,7 @@
             }
 
             .new-transaction{
-                background-color:rgb(30, 96, 167);
+                background-color:rgb(220, 232, 232);
                 width: 100%;
                 height: 40%; 
             }
@@ -103,31 +103,31 @@
             /* New Transaction */
             
             .label2{
-                background-color:rgb(220, 153, 185);
+                /* background-color:rgb(220, 153, 185); */
                 width: 100%;
                 height: 25%; 
             }
             
             .text-box{
-                background-color:rgb(141, 69, 104);
+                /* background-color:rgb(141, 69, 104); */
                 width: 100%;
                 height: 25%;
                 display: flex;
                 flex-direction: column;
             }
             
-            .amount{
-                background-color:rgb(185, 48, 114);
-            }
+            /* .amount{
+                background-color:rgb(220, 232, 232);
+            } */
 
             .amount input {
                 height: 28px;
                 width: 99%;
             }
             
-            #addTransaction-btn{
+            /* #addTransaction-btn{
                 background-color:rgb(209, 8, 105);
-            }
+            } */
 
             .addTransaction-btn{
                 width: 100%;
