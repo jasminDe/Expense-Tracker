@@ -26,14 +26,14 @@
         <div class="income-expense">
             <div class="income">
                 <h5>INCOME</h5>
-                 <h2>+$0.00</h2>  
+                 <h2 class="numbers">+$0.00</h2>  
             </div>
 
             <div class="line"></div>
             
             <div class="expense">
                 <h5>EXPENSE</h5>
-                    <h2>-$0.00</h2>
+                    <h2 class="numbers">-$0.00</h2>
             </div>
         </div>
 
@@ -46,10 +46,11 @@
         <div class="new-transaction">
 
             <div class="label2">
-                <h4 style="margin: 0px;"
-                >Add new transaction</h4>
-                <hr>
-
+                <div>
+                    <h4 style="margin: 0px;"
+                    >Add new transaction</h4>
+                    <hr>
+                </div>
             </div>
 
             <div class="text-box">
@@ -62,8 +63,11 @@
             <div class="amount">
                 <h5>Amount</h5>
                 <h6>(negative-expense,posotive-income)</h6>
-                <input type="text" id="amount" name="amount-box"
-                placeholder="Enter amount...">
+
+                <div>
+                    <input type="text" id="amount" name="amount-box"
+                    placeholder="Enter amount...">
+                </div>
             </div>
 
             <div id="addTransaction-btn">
